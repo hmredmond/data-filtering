@@ -1,0 +1,47 @@
+.horizontal-bar-chart {
+  float: left;
+  width: 100%;
+  li {
+    position: relative;
+    display: block;
+    _zoom: 1;
+    height: 3em;
+    margin-bottom: 0.2em;
+    background: #ebebeb;
+  }
+  p {
+    color: #666666;
+    position: relative;
+    display: block;
+    _zoom: 1;
+    margin: 0 0 0.9em 0;
+    text-indent: 0.6em;
+  }
+  .name {
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0 1em;
+    text-align: right;
+    color: #999;
+    font-weight: bold;
+    font-size: 0.875em;
+    line-height: 3em;
+    text-shadow: 1px 1px 0px #e8e8e8;
+  }
+  .index {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    text-indent: 0.6em;
+    font-size: 0.875em;
+    font-weight: bold;
+    color: #ffffff;
+    background: #064277;
+    line-height: 3.2em;
+    text-shadow: 1px 1px 0px #595959;
+  }
+}

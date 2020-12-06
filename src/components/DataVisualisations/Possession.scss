@@ -1,0 +1,36 @@
+.animate {
+  animation-duration: 1.5s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+
+  &-left {
+    right: 0;
+
+    -webkit-animation-name: animLeft;
+    animation-name: animLeft;
+  }
+
+  &-right {
+    left: 0;
+    -webkit-animation-name: animRight;
+    animation-name: animRight;
+  }
+}
+
+@keyframes animRight {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@keyframes animLeft {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0%);
+  }
+}
